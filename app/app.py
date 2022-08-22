@@ -25,6 +25,7 @@ def get_db_connection():
                 'age integer NOT NULL,'
                 'phone varchar (10) NOT NULL);'
                 )
+    //first line
 
     conn.commit()
 
